@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_tags",
+  "info": {
+    "displayName": "Tag",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
