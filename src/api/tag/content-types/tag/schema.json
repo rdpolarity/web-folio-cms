@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "projects",
+  "collectionName": "tags",
   "info": {
-    "singularName": "project",
-    "pluralName": "projects",
-    "displayName": "Project",
+    "singularName": "tag",
+    "pluralName": "tags",
+    "displayName": "Tags",
     "description": ""
   },
   "options": {
@@ -13,9 +13,14 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "colour": {
       "type": "string"
     },
-    "thumbnail": {
+    "icon": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -26,11 +31,11 @@
         "audios"
       ]
     },
-    "tags": {
+    "projects": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::tag.tag",
-      "mappedBy": "projects"
+      "target": "api::project.project",
+      "inversedBy": "tags"
     }
   }
 }
