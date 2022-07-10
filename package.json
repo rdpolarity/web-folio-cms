@@ -7,6 +7,7 @@
     "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "env": "vercel env pull",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -14,6 +15,7 @@
     "@strapi/plugin-graphql": "^4.2.2",
     "@strapi/plugin-i18n": "4.2.2",
     "@strapi/plugin-users-permissions": "4.2.2",
+    "@strapi/provider-upload-cloudinary": "^4.2.2",
     "@strapi/strapi": "4.2.2",
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
@@ -29,5 +31,8 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^27.0.0"
+  }
 }
