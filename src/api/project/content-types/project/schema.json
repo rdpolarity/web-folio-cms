@@ -43,6 +43,16 @@
     },
     "highlight": {
       "type": "boolean"
+    },
+    "mobileThumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
