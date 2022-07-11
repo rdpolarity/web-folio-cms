@@ -7,7 +7,7 @@
     "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "env": "vercel env pull",
+    "pull:env": "vercel env pull",
     "strapi": "strapi"
   },
   "dependencies": {

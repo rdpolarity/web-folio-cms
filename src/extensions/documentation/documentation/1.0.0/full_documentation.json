@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-10T13:21:34.813Z"
+    "x-generation-date": "2022-07-11T08:25:02.373Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -124,6 +124,18 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "link": {
+                "type": "string"
+              },
+              "github": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "highlight": {
+                "type": "boolean"
               }
             }
           }
@@ -1313,6 +1325,18 @@
                                                     }
                                                   }
                                                 },
+                                                "link": {
+                                                  "type": "string"
+                                                },
+                                                "github": {
+                                                  "type": "string"
+                                                },
+                                                "description": {
+                                                  "type": "string"
+                                                },
+                                                "highlight": {
+                                                  "type": "boolean"
+                                                },
                                                 "createdAt": {
                                                   "type": "string",
                                                   "format": "date-time"
@@ -1669,6 +1693,18 @@
                           }
                         }
                       }
+                    },
+                    "link": {
+                      "type": "string"
+                    },
+                    "github": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "highlight": {
+                      "type": "boolean"
                     },
                     "createdAt": {
                       "type": "string",
@@ -2928,6 +2964,18 @@
                                                   }
                                                 }
                                               },
+                                              "link": {
+                                                "type": "string"
+                                              },
+                                              "github": {
+                                                "type": "string"
+                                              },
+                                              "description": {
+                                                "type": "string"
+                                              },
+                                              "highlight": {
+                                                "type": "boolean"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -3284,6 +3332,18 @@
                         }
                       }
                     }
+                  },
+                  "link": {
+                    "type": "string"
+                  },
+                  "github": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "highlight": {
+                    "type": "boolean"
                   },
                   "createdAt": {
                     "type": "string",
@@ -4877,6 +4937,18 @@
                                         }
                                       }
                                     }
+                                  },
+                                  "link": {
+                                    "type": "string"
+                                  },
+                                  "github": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "highlight": {
+                                    "type": "boolean"
                                   },
                                   "createdAt": {
                                     "type": "string",
@@ -6495,6 +6567,18 @@
                                       }
                                     }
                                   }
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "github": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string"
+                                },
+                                "highlight": {
+                                  "type": "boolean"
                                 },
                                 "createdAt": {
                                   "type": "string",
