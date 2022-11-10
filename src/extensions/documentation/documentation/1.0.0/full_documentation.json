@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-11-08T00:09:47.246Z"
+    "x-generation-date": "2022-11-10T03:31:45.023Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -107,9 +107,6 @@
                         "__component": {
                           "type": "string"
                         },
-                        "Description": {
-                          "type": "string"
-                        },
                         "Title": {
                           "type": "string"
                         },
@@ -143,6 +140,9 @@
                             }
                           ],
                           "example": "string or id"
+                        },
+                        "Description": {
+                          "type": "string"
                         }
                       }
                     },
@@ -222,9 +222,6 @@
                                 "type": "string"
                               },
                               "__component": {
-                                "type": "string"
-                              },
-                              "Description": {
                                 "type": "string"
                               },
                               "Title": {
@@ -2141,6 +2138,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "Description": {
+                                "type": "string"
                               }
                             }
                           },
@@ -2652,9 +2652,6 @@
                               "type": "string"
                             },
                             "__component": {
-                              "type": "string"
-                            },
-                            "Description": {
                               "type": "string"
                             },
                             "Title": {
@@ -4571,6 +4568,9 @@
                                   }
                                 }
                               }
+                            },
+                            "Description": {
+                              "type": "string"
                             }
                           }
                         },
